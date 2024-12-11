@@ -17,11 +17,11 @@ This project showcases various characters from the Harry Potter franchise follow
 ## Installation
 1. Clone this repository:  
    ```bash
-   git clone https://github.com/your_user/harry-potter-characters.git
+   git clone [https://github.com/your_user/Technical-test.git]
    ```
 2. Navigate to the project directory:  
    ```bash
-   cd harry-potter-characters
+   cd Technical-test
    ```
 3. Install the necessary dependencies:  
    ```bash
@@ -38,7 +38,4 @@ This project showcases various characters from the Harry Potter franchise follow
 
 ## API
 This project uses the following API to fetch character information:
-- [Harry Potter API](https://hp-api.onrender.com/)
-
-## Contributions
-Contributions are welcome! If you'd like to improve this project, fork it, create a branch, and submit a pull request.
+- [Harry Potter API][https://hp-api.onrender.com/api/characters]
