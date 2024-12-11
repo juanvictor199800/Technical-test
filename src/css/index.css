@@ -1,0 +1,96 @@
+@import './fonts.css';
+
+*, *::before, *::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: 'Muli-Medium', sans-serif;
+  background-color: #31373d;
+}
+
+.container{
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.title-section{
+  padding: 2rem 0;
+  background-color: #0a59cb;
+  color: #fff;
+  text-align: center;
+}
+
+.title-section span{
+  display: block;
+}
+
+.title-section span:first-child{
+  font-size: 2rem;
+  font-family: 'Muli-Black', sans-serif;
+  padding-bottom: 1rem;
+}
+
+.cards-section{
+  margin-top: 3rem;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 1rem;
+}
+
+.cards-section > div {
+  position: relative; 
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 20px;
+  color: #fff;
+  text-align: center;
+  height: 300px;
+  overflow: hidden; 
+  cursor: pointer;
+  transition: transform 0.3s ease; 
+}
+
+.cards-section > div::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5); 
+  border-radius: 20px; 
+  z-index: 1; 
+  transition: background-color 0.3s ease; 
+}
+
+.cards-section > div:hover::before {
+  background-color: transparent; 
+}
+
+.cards-section > div:hover {
+  transform: scale(1.05); 
+}
+
+.cards-section > div > * {
+  position: relative; 
+  z-index: 2;
+}
+
+
+.cards-section > div .title {
+  font-family: 'Muli-Bold', sans-serif;
+  font-size: 1.2rem;
+  position: absolute;
+  bottom: 0;
+  left: 50%; 
+  transform: translateX(-50%); 
+  width: 100%; 
+  padding: 0.5rem 0; 
+  background-color: rgba(0, 0, 0, 0.5); 
+  text-align: center; 
+}

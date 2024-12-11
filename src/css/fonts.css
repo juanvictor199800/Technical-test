@@ -1,0 +1,13 @@
+@font-face{
+	font-family: 'Muli-Medium';
+	src: url('../assets/fonts/Mulish-Medium.ttf');
+}
+
+@font-face{
+	font-family: 'Muli-Bold';
+	src: url('../assets/fonts/Mulish-Bold.ttf');
+}
+@font-face{
+	font-family: 'Muli-Black';
+	src: url('../assets/fonts/Mulish-Black.ttf');
+}
